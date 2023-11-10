@@ -1,0 +1,23 @@
+{
+  "name": "projet_init",
+  "version": "1.0.0",
+  "description": "![cover](https://hackmd.io/_uploads/BJW9oA9Wa.jpg) >Projet initial pour apprendre les bonne pratiques",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel --no-babelrc src -w -d js --preset=env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giusmili/Bachelor-developer-2324.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giusmili/Bachelor-developer-2324/issues"
+  },
+  "homepage": "https://github.com/giusmili/Bachelor-developer-2324#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
